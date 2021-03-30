@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+
+.menu-item {
+  @apply border-b-2 py-3 text-sm pl-5 border-gray-100 lg:border-none;
+}
+@tailwind utilities;
+
+@layer utilities {
+  .h-max {
+    height: max-content;
+  }
+  .h-min {
+    height: min-content;
+  }
+}
+
+.slick-slide {
+    margin: 0 20px;
+  }
